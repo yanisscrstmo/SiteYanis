@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yanis CRISOSTOMO</title>
-    <link rel="stylesheet" href="style.css">
-    <script href="script.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <h1 class="title">Yanis Crisostomo</h1>
     <h2 class="title">Étudiant en développement</h2>
     <section class="contact">
-        <form action="" method="GET" class="contact">
+        <form action="" method="post" class="contact">
             <div class="first-name">
                 <label for="first-name">Enter your first name</label>
                 <input type="text" name="first-name" id="first-name" required/>
@@ -27,10 +27,12 @@
                 <label for="description">Describe what you need</label>
                 <input type="text" name="description" id="description" required/>
             </div>
+            <button class="submit" onmouseover="animateButton(this)">Submit</button>
         </form>
     </section>
-</body>
-<footer>
+    <footer>
     <p class="footer-made">Made by Yanis CRISOSTOMO.</p>
-</footer>
+    </footer>
+</body>
+
 </html>

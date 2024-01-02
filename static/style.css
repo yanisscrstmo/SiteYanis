@@ -1,5 +1,7 @@
+/*@media screen and (max-width: 767px) and (orientation: portrait) {}*/
+/*@media screen and (max-width: 767px) and (orientation: landscape) {}*/
+/*@media screen and (min-width: 768px) and (max-width: 1024px) {}*/
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-
 .title {
     text-align: center;
     font-family: 'Orbitron', sans-serif;
@@ -7,6 +9,7 @@
 p {
     text-align: center;
 }
+
 .footer-made {
     font-family: 'Orbitron', sans-serif;
 }
@@ -23,12 +26,31 @@ section.div {
     gap: 10px;
     align-items: center;
 }
+form.input {
+    margin: 1em;
+}
 label {
     text-align: right;
+    margin: 1em;
 }
 #description {
-    width: 500px;
-    height: 100px;
+    width: 40em;
+    height: 10em;
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 1em;
+}
+button.submit:hover {
+    background-color: #2980b9;
 }
 body {
     background: linear-gradient(0.25turn, #5dc5e3, #89CFF0, #F0FFFF);
