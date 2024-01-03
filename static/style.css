@@ -2,12 +2,23 @@
 /*@media screen and (max-width: 767px) and (orientation: landscape) {}*/
 /*@media screen and (min-width: 768px) and (max-width: 1024px) {}*/
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 .title {
     text-align: center;
     font-family: 'Orbitron', sans-serif;
 }
 p {
     text-align: center;
+}
+section.contact {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    border: 3px solid #303030;
+    border-radius: 20px;
+    width: 40em;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-made {
@@ -28,14 +39,33 @@ section.div {
 }
 form.input {
     margin: 1em;
+    vertical-align: center;
+
+}
+#first-name {
+    width: 30em;
+    margin: 1em;
+}
+#last-name {
+    width: 30em;
+    margin: 1em;
+}
+#email {
+    width: 30em;
+    margin: 1em;
+}
+#description {
+    width: 30em;
+    height: 10em;
+    margin: 1em;
+}
+p.contact {
+    font-size: 20px;
 }
 label {
     text-align: right;
     margin: 1em;
-}
-#description {
-    width: 40em;
-    height: 10em;
+    vertical-align: middle;
 }
 button {
     display: inline-block;
@@ -52,8 +82,16 @@ button {
 button.submit:hover {
     background-color: #2980b9;
 }
+input {
+    width: 200px;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    vertical-align: middle
+}
 body {
     background: linear-gradient(0.25turn, #5dc5e3, #89CFF0, #F0FFFF);
-    align-items: center;
-    position: relative;
+    color: #303030;
 }
